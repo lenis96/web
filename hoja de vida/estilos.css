@@ -1,0 +1,48 @@
+h1,h2,h3,a,th,td,li, em,p{
+	color: #444444;
+	font-family: Open Sans;
+}
+
+#foto{
+	width: 10%;
+}
+
+#foto:hover{
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.indice{
+	width: 100%;
+    border-collapse: collapse;
+}
+
+.indice th{
+	border-style: solid;
+	height: 50px;
+}
+
+a{
+	text-decoration: none;
+	height: 50px;
+}
+
+a:visited{
+	color:#7C9AFF;
+}
+a:hover{
+	background: #dddddd;
+}
+
+a.enlaceExterno{
+	text-decoration: underline;
+	color: blue;
+}
+
+.estudiosList{
+	list-style-image: url('pencil.png');/*tomada de: http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/16/Actions-document-edit-icon.png*/	
+}
+
+.proyectosList{
+	list-style-image: url('project.png');/*tomada de: http://icons.iconarchive.com/icons/hopstarter/mac-folders/16/Documents-icon.png*/
+}
