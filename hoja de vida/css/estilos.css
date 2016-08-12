@@ -1,4 +1,7 @@
-h1,h2,h3,a,th,td,li, em,p{
+body{
+	background: #eeeeee;
+}
+h1,h2,h3,a,th,td,li, em,p,strong,cite{
 	color: #444444;
 	font-family: Open Sans;
 }
@@ -40,9 +43,9 @@ a.enlaceExterno{
 }
 
 .estudiosList{
-	list-style-image: url('pencil.png');/*tomada de: http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/16/Actions-document-edit-icon.png*/	
+	list-style-image: url('../img/pencil.png');/*tomada de: http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/16/Actions-document-edit-icon.png*/	
 }
 
 .proyectosList{
-	list-style-image: url('project.png');/*tomada de: http://icons.iconarchive.com/icons/hopstarter/mac-folders/16/Documents-icon.png*/
+	list-style-image: url('../img/project.png');/*tomada de: http://icons.iconarchive.com/icons/hopstarter/mac-folders/16/Documents-icon.png*/
 }
